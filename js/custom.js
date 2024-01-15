@@ -16,17 +16,18 @@ $('.main_visual .main_visual_slide').slick({
 });
 
 $('.main_visual .main_visual_slide_arrows .left').on('click',function(){
-    $('.main_visual .main_visual_slide').slick('slickPrev');
+    $('.main_visual .main_slide').slick('slickPrev');
 })
 
 $('.main_visual .main_visual_slide_arrows .right').on('click',function(){
-    $('.main_visual .main_visual_slide').slick('slickNext');
+    $('.main_visual .main_slide').slick('slickNext');
 })
 
 
 $('.main_slide').slick({
     arrows:false,
     autoplay:true,
+    fade:true,
 // slidesToShow:5,
 
 });
