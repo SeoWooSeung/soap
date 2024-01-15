@@ -1,0 +1,126 @@
+:root {
+    --line-color: #dddddd;
+    --black-color: #333333;
+    --white-color: #ffffff;
+}
+
+.inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.default {
+    padding: 120px 0 100px 0;
+}
+
+.default .tit {
+    max-width: 1200px;
+    margin: 0 auto 40px auto;
+    padding: 0 16px;
+
+}
+
+.default .tit h2 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.default .tit p {
+    margin: 18px 0 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+
+#wrap {}
+
+#header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    line-height: 100px;
+}
+
+#header .header_wrap {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--line-color);
+}
+
+#header .header_wrap ul {
+    display: flex;
+    gap: 40px;
+}
+
+#header .header_wrap ul li a {
+    display: block;
+    font-size: 18px;
+}
+
+#header .header_wrap ul li span {
+    color: rgb(229, 48, 16);
+}
+
+#header .header_wrap .icon {
+    display: block;
+}
+
+.main_visual .main_slide .itm {
+    position: relative;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main_visual .main_slide .itm01 {
+    background: url(../images/main_slide01.jpg);
+}
+
+.main_visual .main_slide .itm02 {
+    background: url(../images/main_slide02.jpg);
+}
+
+.main_visual .main_slide .itm03 {
+    background: url(../images/main_slide03.jpg);
+}
+
+.main_visual .main_slide .itm04 {
+    background: url(../images/main_slide04.jpg);
+}
+
+.main_visual .main_slide .itm .con {
+    position: absolute;
+    top: 40%;
+    left: 630px;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.main_visual .main_slide .itm .con strong {
+    display: block;
+    margin: 0 0 24px 0;
+
+    color: var(--white-color);
+    font-size: 80px;
+    font-weight: 800;
+    text-align: center;
+    font-family: serif;
+}
+
+.main_visual .main_slide .itm .con p {
+    color: var(--white-color);
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 60px; 
+}
