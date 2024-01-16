@@ -29,8 +29,20 @@ $('.main_slide').slick({
     autoplay:true,
     fade:true,
 // slidesToShow:5,
-
 });
+
+$('.main_banner_sliede').slick({
+slidesToShow: 3,
+arrows:false,
+});
+
+$('.banner_slide .main_banner_sliede_arrows .left').on('click',function(){
+    $('.banner_slide .main_banner_sliede').slick('slickPrev');
+})
+
+$('.banner_slide .main_banner_sliede_arrows .right').on('click',function(){
+    $('.banner_slide .main_banner_sliede').slick('slickNext');
+})
 
 
 $('.main_visual .wheel').on('click',function(e){
