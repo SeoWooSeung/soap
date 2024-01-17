@@ -34,6 +34,22 @@ $('.main_slide').slick({
 $('.main_banner_sliede').slick({
 slidesToShow: 3,
 arrows:false,
+responsive:[
+    {
+        breakpoint: 1200,
+        settings : {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+        }
+    } ,
+    {
+        breakpoint: 769,
+        settings : {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+        }
+    }            
+],
 });
 
 $('.banner_slide .main_banner_sliede_arrows .left').on('click',function(){
