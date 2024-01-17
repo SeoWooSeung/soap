@@ -44,6 +44,13 @@ $('.banner_slide .main_banner_sliede_arrows .right').on('click',function(){
     $('.banner_slide .main_banner_sliede').slick('slickNext');
 })
 
+$('.mbt').on("click", function () {
+    $('.gnb').toggleClass('on');
+    $('.h1').toggleClass('on');
+    $('.header').toggleClass('on');
+    $('.icon').toggleClass('on');
+})
+
 
 $('.main_visual .wheel').on('click',function(e){
 e.preventDefault(); //a태그 때문에 화면 깜빡임 없애기//
