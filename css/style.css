@@ -319,7 +319,7 @@
     top: 32px;
     left: 50%;
     transform: translate(-50%, 0);
-    width: 360px;
+    width: 250px;
     height: 1px;
     background: rgba(0, 0, 0, 0.2);
 }
@@ -695,10 +695,9 @@
 @media(max-width:768px) {
 
     .footer {
-        padding: 80px 30px 180px 30px;
+        padding: 80px 30px 180px 16px;
         background: #fff;
         border-top: 1px solid var(--line-color);
-        background: none
     }
 
     .footer>a {
