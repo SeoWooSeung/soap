@@ -483,10 +483,11 @@
 @media(max-width:1200px) {}
 
 @media(max-width:768px) {
-    
-    .banner_slide h2 {
+
+    .banner_slide .inner h2 {
         word-break: keep-all;
-        line-height: 1.1;
+        font-size: 8vw;
+        font-weight: 700;
     }
 
     .banner_slide .main_banner_sliede figure .txt>a {
@@ -593,7 +594,48 @@
 
 @media(max-width:1200px) {}
 
-@media(max-width:768px) {}
+@media(max-width:768px) {
+
+    .brand {
+
+        background: url(../images/forest-3622519_1280.jpg)no-repeat fixed center center/cover;
+        height: 700px;
+    }
+
+    .brand .inner h2 {
+        color: #ffffff;
+        text-shadow: 0 1px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .brand .content ul {
+        display: flex;
+        flex-direction: column;
+        /* margin: 100px 0 0 0; */
+    }
+
+    .brand .content ul>* {
+        flex: 1 1 50%;
+        color: var(--white-color);
+        height: 200px;
+    }
+
+    .brand .content ul li img {
+        display: none;
+    }
+
+    .brand .content ul li strong {
+        font-size: 28px;
+    }
+
+    .brand .content ul li p {
+        word-break: keep-all;
+        font-size: 3.7vw;
+    }
+
+    .brand .content ul li a {
+        padding: 8px 24px;
+    }
+}
 
 @media(max-width:500px) {}
 
@@ -650,6 +692,61 @@
 
 @media(max-width:1200px) {}
 
-@media(max-width:768px) {}
+@media(max-width:768px) {
+
+    .footer {
+        padding: 80px 30px 180px 30px;
+        background: #fff;
+        border-top: 1px solid var(--line-color);
+        background: none
+    }
+
+    .footer>a {
+        display: block;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 10px;
+        margin: 0 0 24px 0;
+
+    }
+
+    .footer .footer_wrap {
+        font-size: 14px;
+        margin: 0 0 48px 0;
+    }
+
+    .footer .footer_wrap ul {
+        display: flex;
+        gap: 10px;
+        margin: 8px 0 0 0;
+
+        flex-direction: column;
+    }
+
+    .footer .footer_wrap ul li {
+        word-break: keep-all;
+    }
+
+    .footer .tel strong {
+        display: block;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 10px;
+        margin: 0 0 24px 0;
+    }
+
+    .footer .tel a {
+        display: inline-block;
+        font-size: 38px;
+        font-weight: 800;
+        margin: 0 0 16px 0;
+    }
+
+    .footer .tel span {
+        display: block;
+        font-size: 14px;
+
+    }
+}
 
 @media(max-width:500px) {}
